@@ -1,0 +1,31 @@
+{
+  "name": "phbadge.now.sh",
+  "version": "1.0.0",
+  "description": "PxxnHub logo-liked badge generator.",
+  "main": "api/index.js",
+  "scripts": {
+    "test": "standard"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Gerhut/phbadge.now.sh.git"
+  },
+  "keywords": [
+    "badge"
+  ],
+  "author": "George Cheng <Gerhut@GMail.com>",
+  "license": "Unlicense",
+  "bugs": {
+    "url": "https://github.com/Gerhut/phbadge.now.sh/issues"
+  },
+  "homepage": "https://github.com/Gerhut/phbadge.now.sh#readme",
+  "devDependencies": {
+    "now": "^17.0.4",
+    "standard": "^14.3.1"
+  },
+  "dependencies": {
+    "anafanafo": "^1.0.0",
+    "mustache": "^4.0.0",
+    "path-to-regexp": "^6.1.0"
+  }
+}
