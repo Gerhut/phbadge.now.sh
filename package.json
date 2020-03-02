@@ -24,8 +24,10 @@
     "standard": "^14.3.1"
   },
   "dependencies": {
+    "@koa/router": "^8.0.8",
     "anafanafo": "^1.0.0",
-    "mustache": "^4.0.0",
-    "path-to-regexp": "^6.1.0"
+    "axios": "^0.19.2",
+    "koa": "^2.11.0",
+    "mustache": "^4.0.0"
   }
 }

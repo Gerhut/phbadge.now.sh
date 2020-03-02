@@ -1,7 +1,11 @@
 {
   "version": 2,
-  "trailingSlash": false,
   "rewrites": [
-    { "source": "/(.*)", "destination": "/api/index" }
-  ]
+    { "source": "/(.*)", "destination": "/api" }
+  ],
+  "build": {
+    "env": {
+      "NODEJS_HELPERS": "0"
+    }
+  }
 }
