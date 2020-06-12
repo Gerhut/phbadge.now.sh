@@ -20,7 +20,7 @@
   },
   "homepage": "https://github.com/Gerhut/phbadge.now.sh#readme",
   "devDependencies": {
-    "now": "^19.0.1",
+    "now": "^19.1.0",
     "standard": "^14.3.4"
   },
   "dependencies": {
