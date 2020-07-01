@@ -24,7 +24,7 @@
     "standard": "^14.3.4"
   },
   "dependencies": {
-    "@koa/router": "^9.0.1",
+    "@koa/router": "^9.1.0",
     "anafanafo": "^1.0.0",
     "axios": "^0.19.2",
     "koa": "^2.13.0",
