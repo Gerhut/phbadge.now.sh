@@ -9,8 +9,8 @@ mustache.parse(template)
 
 module.exports = (left, right) => {
   // 3 | 1 | left | 1 | 1 | right | 1 | 3
-  const leftWidth = Math.ceil(anafanafo(left) / 10 * 1.1)
-  const rightWidth = Math.ceil(anafanafo(right) / 10 * 1.1)
+  const leftWidth = Math.ceil(anafanafo(left, { font: 'bold 11px Helvetica' }))
+  const rightWidth = Math.ceil(anafanafo(right, { font: 'bold 11px Helvetica' }))
   return mustache.render(template, {
     left,
     right,
