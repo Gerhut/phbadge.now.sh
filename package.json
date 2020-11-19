@@ -21,7 +21,7 @@
   "homepage": "https://github.com/Gerhut/phbadge.now.sh#readme",
   "devDependencies": {
     "now": "^20.1.4",
-    "standard": "^16.0.2"
+    "standard": "^16.0.3"
   },
   "dependencies": {
     "@koa/router": "^10.0.0",
